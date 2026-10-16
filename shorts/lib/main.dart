@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/Flutter%20Quick%20Tips%20&%20Tricks/const_exam.dart';
+import 'package:shorts/%20Basic%20Flutter%20Widgets/flutter_widgets.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,10 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return
-    MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ConstExample()
-      );
+      home: FlutterWidgets(),
+    );
   }
 }
