@@ -18,7 +18,8 @@ class _RowWidgetState extends State<RowWidget> {
 
       body: Center(
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisSize: MainAxisSize.min,
           children: [
             Icon(Icons.home, size: 35, color: Colors.green),
 
