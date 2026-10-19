@@ -12,23 +12,23 @@ class _RowWidgetState extends State<RowWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Row WWidget", style: TextStyle(color: Colors.white)),
+        title: Text("ROw Widget", style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.blue,
       ),
 
       body: Center(
         child: Row(
-          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Icon(Icons.home, size: 35, color: Colors.green),
+          //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+        Icon(Icons.home, color: Colors.blue, size: 50),
 
-            Icon(Icons.favorite, size: 35, color: Colors.red),
+        Icon(Icons.favorite, color: Colors.red, size: 50),
 
-            Icon(Icons.person, size: 35, color: Colors.indigo),
-          ],
-        ),
-      ),
+        Icon(Icons.person, color: Colors.green, size: 50),
+        ],
+    ),
+    ),
     );
   }
 }
