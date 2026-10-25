@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/%20Basic%20Flutter%20Widgets/icons_widget.dart';
+import 'package:shorts/%20Basic%20Flutter%20Widgets/image_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: IconsWidget());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: ImageWidget());
   }
 }
