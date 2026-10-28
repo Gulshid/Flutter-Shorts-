@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/%20Basic%20Flutter%20Widgets/card_widget.dart';
+import 'package:shorts/%20Basic%20Flutter%20Widgets/divider_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: CardWidget());
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: DividerWidget(),
+    );
   }
 }
