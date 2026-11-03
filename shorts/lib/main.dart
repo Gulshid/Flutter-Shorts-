@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/Layout%20and%20Positioning/cross_axis_alignment_widget.dart';
+import 'package:shorts/Layout%20and%20Positioning/MainAxisSize_min_vs_max.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CrossAxisAlignmentWidget(),
+      home: MainaxissizeMinVsMax(),
     );
   }
 }
