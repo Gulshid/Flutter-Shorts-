@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/Layout%20and%20Positioning/align_widget.dart';
+import 'package:shorts/Layout%20and%20Positioning/wrap_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(debugShowCheckedModeBanner: false, home: AlignWidget());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: WrapWidget());
   }
 }
