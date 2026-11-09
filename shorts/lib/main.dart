@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/Layout%20and%20Positioning/sizedbox_expand_widget.dart';
+import 'package:shorts/Layout%20and%20Positioning/layout_builder_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SizedboxExpandWidget(),
+      home: LayoutBuilderWidget(),
     );
   }
 }
