@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/TextOverflow_ellipsis.dart';
+import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/maxLines.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: TextoverflowEllipsis(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Maxlines());
   }
 }
