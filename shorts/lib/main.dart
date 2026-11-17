@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/RichText_widget.dart';
+import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/TextSpan_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RichtextWidget(),
+      home: TextspanWidget(),
     );
   }
 }
