@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/custom_font.dart';
+import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/material_icon.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         fontFamily: 'Inter'
       ),
       debugShowCheckedModeBanner: false,
-      home: CustomFont(),
+      home: MaterialIcon(),
     );
   }
 }
