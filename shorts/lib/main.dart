@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:shorts/Buttons%20and%20User%20Interaction/ElevatedButton.dart';
 import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/buttonStyle.dart';
-import 'package:shorts/Flutter%20Styling%20and%20UI%20Design/light_dark_mode.dart';
 
 import 'Flutter Styling and UI Design/appbar_theme.dart' show AppbarTheme;
 
@@ -38,7 +38,7 @@ void main() {
           style: AppButtonStyle.primary,
         ),
       ),
-      home: const LightDarkMode(),
+      home: const Elevatedbutton(),
     ),
   );
 }
